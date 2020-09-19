@@ -93,4 +93,15 @@ A szabvány elismert szervezet által alkotott vagy jóváhagyott, közmegegyez�
 5. Clear gomb
 
 ## 8 Irányított és szabad szöveges riportok szövege
+
 ## 9 Fogalomszótár
+
+#### A trigonometrikus függvények:
+Eredetileg szögfüggvények egy derékszögű háromszög egy szöge és két oldalának hányadosa közötti összefüggést írják le.
+
+A szögfüggvények fontosak többek között a geometriai számításoknál, különféle mozgások és a periodikus jelenségek leírásánál, és a műszaki élet számtalan területén.
+
+#### A gyökvonás:
+Egy matematikai művelet, a hatványozás egyik megfordított inverz művelete a másik a logaritmus.
+ 
+Mikor egy számból n-edik gyököt vonunk, olyan számot keresünk, amelyet az n-edik hatványra emelve visszaadja az eredeti számot.
