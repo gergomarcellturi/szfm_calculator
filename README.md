@@ -1,4 +1,7 @@
-##1 Jelenlegi helyzet leírása
+Követelmény specifikáció
+=========================
+
+## 1 Jelenlegi helyzet leírása
 
 Már amióta feltalálta az emberiség a tüzet, hatalmas szerepet játszott az emberek életében az aritmetika.
 Sajnos mint emberi lények kevés lehetőségünk van olyan effektivitással fejben számolni 
@@ -10,7 +13,7 @@ Ehhez egy tökéletes kezdőprojekt a számológép, mely mondhatni egy bicikli 
 
 Viszont, hogy egy teljesen lerágott projektet nyújtsunk be, hozzáadjuk saját kézségeink által szolgáltatható vonásait mely egyedülállóvá teszi a mi számológépünket az összes többitől.
 
-##2 Vágyálom rendszer leírása
+## 2 Vágyálom rendszer leírása
 
 Projektünk célja hogy új fénybe hozzá a számológépeket az end-userek szemében.
 
@@ -22,7 +25,7 @@ Modern dizájn és reszponzív megjelenítés segítségével elérjük a könny
 
 Célunk hogy soha többé ne kelljen újra kézi számológépet használni; a jövő a számítogépekben és az informatikában van, így azzal, hogy egy Angular webapplikáció formájában fogjuk megvalósítani, elérjük a könnyű elérhetőség legmagasabb fokát.
 
-##3 A rendszerre vonatkozó pályázat, törvények, rendeletek, szabványok és ajánlások felsorolása
+## 3 A rendszerre vonatkozó pályázat, törvények, rendeletek, szabványok és ajánlások felsorolása
 3.1 Pályazat
 
 A pályázatíró feladatkörébe tartozik az új pályázati lehetőségek felkutatása,
@@ -42,7 +45,7 @@ A köznyelv törvény alatt esetenként a jog egészét, bármelyik jogszabályt
 
 A szabvány elismert szervezet által alkotott vagy jóváhagyott, közmegegyezéssel elfogadott olyan műszaki dokumentum, amely tevékenységre vagy azok eredményére vonatkozik, és olyan általános és ismételten alkalmazható szabályokat, útmutatókat vagy jellemzőket tartalmaz, amelyek alkalmazásával a rendező hatás az adott feltételek között a legkedvezőbb.
 
-##5 Jelenlegi üzleti folyamatok modellje
+## 5 Jelenlegi üzleti folyamatok modellje
 
 5.1 Számolási müveletek: 
 
@@ -54,8 +57,22 @@ A szabvány elismert szervezet által alkotott vagy jóváhagyott, közmegegyez�
  
 5.2.1 A számológép bizonyos esetekben nem megfelelő => különböző helyen lévő beállítás elvégzése => bonyolult testreszabás müveletek
 
+6 Igényelt üzleti folyamatok modellje
+-------------------------------------
+5.1 Kezdő oldal:
 
-##6 Igényelt üzleti folyamatok modellje
-##7 Követelménylista
-##8 Irányított és szabad szöveges riportok szövege
-##9 Fogalomszótár
+5.1.1 Számológép => Infórmációk a program alkotókról => Idézet
+
+5.2 Számolási müveletek: 
+
+5.2.1 Számolási igény bekérése => Web oldal számológép megnyitása => számolási müvelet elvégzése
+
+5.2.2 Syntax error => értelmezhetetlen karakterk vagy müvleti jelek => hiba megjelenítése 
+
+5.3 Személyre szabás:
+ 
+5.3.1 A számológép minden esetben személyre szabható => egy helyen lévő beállítás elvégzése => egyszerüen testreszabható
+
+## 7 Követelménylista
+## 8 Irányított és szabad szöveges riportok szövege
+## 9 Fogalomszótár
