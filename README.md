@@ -94,7 +94,7 @@ A szabvány elismert szervezet által alkotott vagy jóváhagyott, közmegegyez�
 
 ## 8 Irányított és szabad szöveges riportok szövege
 
-####Hogyan használható az online számológép?
+#### Hogyan használható az online számológép?
 
 Pontosan úgy, ahogy egy számológép általában.
 
