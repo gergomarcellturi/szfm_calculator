@@ -94,6 +94,18 @@ A szabvány elismert szervezet által alkotott vagy jóváhagyott, közmegegyez�
 
 ## 8 Irányított és szabad szöveges riportok szövege
 
+####Hogyan használható az online számológép?
+
+Pontosan úgy, ahogy egy számológép általában.
+
+ Egyszerűen gépeld be a számokat és műveleteket, majd kattints az egyenlőség gombra.
+ 
+ A számológép használható a gombokra történő kattintással, mobiltelefonon érintésükkel, illetve a számítógép billentyűzetéről is. Ha egy-egy gombra rákattintasz, akkor a számológép billentyűjének színe egy pillanatra fehérre vált, jelezve ezzel, hogy sikeresen megnyomtad az adott gombot.
+ 
+ A számológépben megjelenő számok kimásolhatók és természetesen be is másolhatók a Ctrl+C, illetve a Ctrl+V billentyűkombinációk használatával.
+ 
+ Az online számológép egyébként megjegyzi az utolsó állapotot, tehát ha visszatérsz, az utoljára végrehajtott művelet eredménye látható (ha csak nem törölted azt legutóbb).
+
 ## 9 Fogalomszótár
 
 #### A trigonometrikus függvények:
