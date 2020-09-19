@@ -44,6 +44,17 @@ A szabvány elismert szervezet által alkotott vagy jóváhagyott, közmegegyez�
 
 ##5 Jelenlegi üzleti folyamatok modellje
 
+5.1 Számolási müveletek: 
+
+5.1.1 Számolási igény bekérése => online számológépének megnyitása => számolási müvelet elvégzése
+
+5.1.2 Syntax error => értelmezhetetlen karakterk vagy müvleti jelek => hiba megjelenítése 
+
+5.2 Személyre szabás:
+ 
+5.2.1 A számológép bizonyos esetekben nem megfelelő => különböző helyen lévő beállítás elvégzése => bonyolult testreszabás müveletek
+
+
 ##6 Igényelt üzleti folyamatok modellje
 ##7 Követelménylista
 ##8 Irányított és szabad szöveges riportok szövege
