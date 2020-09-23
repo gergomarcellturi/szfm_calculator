@@ -1,3 +1,7 @@
+<button (click)="toggleMenu()">
+  <span>toggle menu</span>
+</button>
+
 <div class="calculator-container">
   <div class="calculator-body">
     <div class="grid-container highlight">
@@ -24,3 +28,4 @@
     </div>
   </div>
 </div>
+<app-sidebar [@slideInOut]="menuState"></app-sidebar>
