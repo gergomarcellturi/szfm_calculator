@@ -10,7 +10,10 @@ export class CacheService {
   private calcHistory: Observable<string[]>;
 
   constructor() {
-    this.calcHistorySubject = new BehaviorSubject<string[]>(JSON.parse(localStorage.getItem('calcHistory')).slice(0, 9) || []);
+    this.calcHistorySubject = new BehaviorSubject<string[]>(
+      JSON.parse(localStorage.getItem('calcHistory')) &&
+      JSON.parse(localStorage.getItem('calcHistory')).slice(0, 9)
+      || []);
     this.calcHistory = this.calcHistorySubject.asObservable();
   }
 
