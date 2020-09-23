@@ -13,4 +13,8 @@ export class CacheService {
     this.calcHistorySubject = new BehaviorSubject<string[]>(JSON.parse(localStorage.getItem('calcHistory')).slice(0, 9) || []);
     this.calcHistory = this.calcHistorySubject.asObservable();
   }
+
+  public get getCalcHistory(): string[] {
+    return this.calcHistorySubject.value;
+  }
 }
