@@ -9,6 +9,7 @@ import {TranslateLoader, TranslateModule} from '@ngx-translate/core';
 import {environment} from '../environments/environment';
 import { SidebarComponent } from './calculator/sidebar/sidebar.component';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
+import {MatIconModule} from '@angular/material/icon';
 
 export function HttpLoaderFactory(httpClient: HttpClient) {
   return new TranslateHttpLoader(httpClient, 'assets/translations/', '.json');
@@ -22,6 +23,7 @@ export function HttpLoaderFactory(httpClient: HttpClient) {
   ],
   imports: [
     BrowserModule,
+    MatIconModule,
     BrowserAnimationsModule,
     TranslateModule.forRoot({
       defaultLanguage: environment.defaultLanguage,
