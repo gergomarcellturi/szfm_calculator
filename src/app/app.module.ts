@@ -8,6 +8,7 @@ import {TranslateHttpLoader} from '@ngx-translate/http-loader';
 import {TranslateLoader, TranslateModule} from '@ngx-translate/core';
 import {environment} from '../environments/environment';
 import { AppRoutingModule } from './app-routing.module';
+import {RouterModule} from '@angular/router';
 
 export function HttpLoaderFactory(httpClient: HttpClient) {
   return new TranslateHttpLoader(httpClient, 'assets/translations/', '.json');
@@ -29,6 +30,7 @@ export function HttpLoaderFactory(httpClient: HttpClient) {
       }
     }),
     AppRoutingModule,
+    RouterModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
