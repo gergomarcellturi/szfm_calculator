@@ -75,6 +75,21 @@ A szabvány elismert szervezet által alkotott vagy jóváhagyott, közmegegyez�
 5.2.1 A számológép bizonyos esetekben nem megfelelő => különböző helyen lévő beállítás elvégzése => bonyolult testreszabás müveletek
 
 ## 6. Igényelt üzleti folyamatok modellje
+
+5.1 Kezdő oldal:
+
+5.1.1 Számológép => Infórmációk a program alkotókról => Idézet
+
+5.2 Számolási müveletek: 
+
+5.2.1 Számolási igény bekérése => Web oldal számológép megnyitása => számolási müvelet elvégzése
+
+5.2.2 Syntax error => értelmezhetetlen karakterk vagy müvleti jelek => hiba megjelenítése 
+
+5.3 Személyre szabás:
+ 
+5.3.1 A számológép minden esetben személyre szabható => egy helyen lévő beállítás elvégzése => egyszerüen testreszabható
+
 ## 7. Követelménylista
 ## 8. Használati esetek
 ## 9. Megfeleltetés, hogyan fedik le a használati esetek a követelményeket
