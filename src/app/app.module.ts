@@ -31,6 +31,7 @@ export function HttpLoaderFactory(httpClient: HttpClient) {
     }),
     AppRoutingModule,
     RouterModule,
+    BrowserModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
