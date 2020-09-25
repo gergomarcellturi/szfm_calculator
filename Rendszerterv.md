@@ -1,7 +1,10 @@
 Rendszerterv
 ============
 
-## 1 Mit (Rendszer)
+
+##Funkcionális terv
+####Rendszer használati esetei, lefutásaik ábra
+![A diagram.](./images/Ábra.PNG)
 ## 2 Miért (Rendszer célja)
 ## 3 Hogyan (Terv)
 ## 4 Mikor (Időpont)
