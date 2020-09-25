@@ -2,6 +2,7 @@ import {Component, ElementRef, OnInit} from '@angular/core';
 import { trigger, state, style, transition, animate } from '@angular/animations';
 import {CacheService} from '../services/cache.service';
 import {EventService} from '../services/event.service';
+import * as math from 'mathjs';
 
 @Component({
   selector: 'app-calculator',
@@ -82,5 +83,9 @@ export class CalculatorComponent implements OnInit {
 
   private getSearchExpression(): RegExp {
     return /[+/*-]/gi;
+  }
+
+  private addToCalcHistory(resultString: string): void {
+    this.calcHistory = [ {expression: resultString, value: math.parse(resultString).evaluate()}, ...this.calcHistory];
   }
 }
