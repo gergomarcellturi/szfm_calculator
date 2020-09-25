@@ -2,11 +2,34 @@ Rendszerterv
 ============
 
 
-## Funkcionális terv
-#### Rendszer használati esetei, lefutásaik ábra
+## Rendszer használati esetei, lefutásaik ábra
 ![A diagram.](./images/Ábra.PNG)
 
+## Tervek
+
+#### Ütemterv:
+Projekt kezdete: 2020.09.07.
+
+Követelményspecifikáció határideje: 2020.09.19.
+
+Funkcionális specifikáció határideje: 2020.09.25.
+
+Rendszerterv határideje: 2020.09.25.
+
+Projekt elkészítésének határideje: 2020.09.28.
+
+#### A projekt résztvevői:
+A projekten 3 db programtervező informatikus hallgató dolgozik.
+
+Tóth János Donát (fejlesztő)
+
+Pataki Donát (fejlesztő)
+
+Turi Marcell Gergő (fejlesztő)
+
 ## Wireframe
+
+
 
 ## Rendszer célja
 
