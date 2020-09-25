@@ -103,4 +103,9 @@ export class CalculatorComponent implements OnInit {
   private addToCalcHistory(resultString: string): void {
     this.calcHistory = [ {expression: resultString, value: math.parse(resultString).evaluate()}, ...this.calcHistory];
   }
+
+  private historyEventHandler(history: {expression: string, value: number}): void {
+    this.inputString = history.expression;
+    this.evaluateExpression();
+  }
 }
