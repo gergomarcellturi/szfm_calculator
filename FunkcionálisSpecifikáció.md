@@ -112,10 +112,23 @@ A szabvány elismert szervezet által alkotott vagy jóváhagyott, közmegegyez�
 ## 8. Használati esetek
 ![A diagram.](./images/images.png)
 
-## 9. Megfeleltetés, hogyan fedik le a használati esetek a követelményeket
-## 10. Képernyő tervek
-## 11. Forgatókönyvek
-## 12. Funkció – követelmény megfeleltetés
+## 9. Képernyő tervek
+
+## 10. Forgatókönyvek
+
+1.A kolléga ki akarja számolni, hogy évente menyi pénzt keres.
+Akkor egy pillanat alatt megnyítja a calculator weboldalt.
+Beírja, hogy 453000 * 12 = 5436000.
+Már azonal meg is kapja az eredményt.
+Bonyolultabb müveletekre is képes. 
+
+2.A főnök ki szeretné számolni, hogy a különbőző bankszámlájin van-e elegendő pénze egy 30000000ft házra.
+Akkor egy pillanat alatt megnyítja a calculator weboldalt.
+El kezdi össze adni az összegket.
+Szerncsére kiderüla a végén, hogy elegendő pénze van a ház megvételére.
+
+
+## 11. Funkció – követelmény megfeleltetés
  Az oldal dizájnját  CSS-el csináljuk, könnyen értelmezhető HTML-el kódoljuk.
  
 A reszponzív design CSS segítségével történik, hogy átméretezhető legyen az ablak, és számos felbontással kompatibilis legyen.
@@ -126,7 +139,7 @@ Matematikai műveletek operációgombokként jelennek meg.
 
 A program kompatibilis lesz különböző eszközökkel, bármelyik böngésző segítségével.
 
-## 13. Fogalomszótár
+## 12. Fogalomszótár
 
 A trigonometrikus függvények:
 Eredetileg szögfüggvények egy derékszögű háromszög egy szöge és két oldalának hányadosa közötti összefüggést írják le.
