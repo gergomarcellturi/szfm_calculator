@@ -97,3 +97,17 @@ Opera
 MS Edge
 
 
+## Telepítési terv
+
+A program nem kíván telepítést, mivel egy weboldal ezt pedig a programozó cég rendszergazdája üzemeli egy szerven.
+
+## Karbantartási terv
+Tudjuk, hogy az informatika egy folyamatosan újulásban lévő iparág, fontosnak tartjuk, hogy naprakészek maradjunk a technológiákkal kapcsolatban.
+ 
+A weblapunkat átadás után is karbantartsuk, illetve korszerűsítsük is időközönként.
+
+Havi updateket tervezünk a weboldal számára.
+
+Azt szeretnénk, hogy a legsikeresebb calculator web oldal a miénk legyen. 
+
+A jövőben szeretnénk évszakhoz vagy esetleg egyes ünnepekhez külőn dizájnt is fejleszteni.
