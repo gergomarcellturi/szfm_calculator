@@ -2,6 +2,22 @@ Funkcionális Specifikáció
 =========================
 
 ## 1. A rendszer céljai és nem céljai
+
+#### A rendszer célja
+Ne kelljen egy számológépet elővenni-e az embernek mikor a gép előtt ül.
+
+Ezáltal támogatást nyújt alkalmazottak munkájához.
+
+Könnyü kezelési és felhasználói felületet biztosítson.
+
+Teljes megoldást biztosítson az emberek számára a számításokhoz.
+
+Teljes mértékben személyre szabható legyen, ezzel hatékonyabbá téve az egyes részlegeken a munkáját.
+
+#### A rendszernek nem célja
+Teljesen nem szeretnénk kíváltani a tudományos számológépet.
+
+Csak a cég emberei számára könnyítenénk meg a munkát.
 ## 2. Jelenlegi helyzet leírása
 ## 3. Vágyálom rendszer leírása
 ## 4. A rendszerre vonatkozó külső megszorítások: pályázat, törvények, rendeletek, szabványok és ajánlások felsorolása
