@@ -20,7 +20,6 @@ input{
   color: antiquewhite;
 }
 
-
 .calculator-body  {
   margin: 0 auto 0 auto;
   width: 400px;
@@ -58,6 +57,10 @@ input{
   visibility: visible;
 }
 
+.calculator-container:hover .grid-item {
+  transition: .8s;
+}
+
 .highlight .grid-item {
   border: 3px solid #cd7bff;
 }
@@ -69,9 +72,7 @@ input{
   display: flex;
   flex-direction: column;
   justify-content: center;
-}
-.number-layer .grid-item:hover {
-  border: 2px solid #cd7bff;
+  cursor: pointer;
 }
 .number-layer .grid-item span:last-child {
   font-size: 32px;
@@ -79,5 +80,4 @@ input{
 
 .grid-item:hover {
   background-color: #58586a;
-  cursor: pointer;
 }
