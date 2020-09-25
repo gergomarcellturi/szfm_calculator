@@ -37,6 +37,7 @@ export class CalculatorComponent implements OnInit {
   ngOnInit(): void {
     this.elementRef.nativeElement.ownerDocument.body.style.backgroundColor = '#112';
     this.cursorEffect();
+    this.getHistoryFromCache();
   }
 
   private cursorEffect() {
@@ -72,6 +73,12 @@ export class CalculatorComponent implements OnInit {
       this.inputString[this.inputString.length - 1] === ' ') && this.inputString.length !== 0) {
       this.deleteChar();
     }
+  }
+
+  private getHistoryFromCache(): void {
+    this.cacheService.getCalcHistory.forEach(value => this.calcHistory = [
+      ...this.calcHistory, {expression: value, value: math.parse(value).evaluate()}
+    ]);
   }
 
   public clearInput() {
