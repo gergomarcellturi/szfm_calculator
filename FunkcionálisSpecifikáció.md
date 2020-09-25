@@ -110,8 +110,12 @@ A szabvány elismert szervezet által alkotott vagy jóváhagyott, közmegegyez�
 5. Clear gomb
 
 ## 8. Használati esetek
+![A diagram.](./images/images.png)
+
 ## 9. Megfeleltetés, hogyan fedik le a használati esetek a követelményeket
 ## 10. Képernyő tervek
 ## 11. Forgatókönyvek
 ## 12. Funkció – követelmény megfeleltetés
+
 ## 13. Fogalomszótár
+
