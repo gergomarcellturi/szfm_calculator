@@ -91,6 +91,24 @@ A szabvány elismert szervezet által alkotott vagy jóváhagyott, közmegegyez�
 5.3.1 A számológép minden esetben személyre szabható => egy helyen lévő beállítás elvégzése => egyszerüen testreszabható
 
 ## 7. Követelménylista
+1. UI
+2. Menő design
+3. Grafikus megjelenítés
+    - Végzett operáció megjelenítése
+    - Gombok megkülönböztetése
+4. Matematikai műveletek
+    - Összeadás
+    - Kivonás
+    - Szorzás
+    - Osztás
+    - Reciprok
+    - Gyökvonás
+    - Szorzás
+    - Hatványozás
+    - Reciprok
+    - Trigonometrikus műveletek
+5. Clear gomb
+
 ## 8. Használati esetek
 ## 9. Megfeleltetés, hogyan fedik le a használati esetek a követelményeket
 ## 10. Képernyő tervek
