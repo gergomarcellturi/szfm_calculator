@@ -67,4 +67,33 @@ A felületnek egyszerünek és kezelhetőnek kell lennie, hogy mindenki könyön
 
 A rendszernek célja, hogy teljes mértékben helyettesítsen egy tudományos számológépet és többet is tudjon mint egy rendes számológép. 
 
-## Miből (erőforrások)
+## Fizikai környezet
+
+#### Angular Frontend
+
+Visual Studio Code
+
+Intellij
+
+Sublime Text
+
+Notepad++
+
+#### Fejlesztő eszközök
+HTML
+
+CSS
+
+TS
+
+#### Böngészők:
+
+Firefox
+
+Google Chrome
+
+Opera
+
+MS Edge
+
+
