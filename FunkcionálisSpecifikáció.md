@@ -43,6 +43,25 @@ Modern dizájn és reszponzív megjelenítés segítségével elérjük a könny
 Célunk hogy soha többé ne kelljen újra kézi számológépet használni; a jövő a számítogépekben és az informatikában van, így azzal, hogy egy Angular webapplikáció formájában fogjuk megvalósítani, elérjük a könnyű elérhetőség legmagasabb fokát.
 
 ## 4. A rendszerre vonatkozó külső megszorítások: pályázat, törvények, rendeletek, szabványok és ajánlások felsorolása
+#### 3.1 Pályazat
+
+A pályázatíró feladatkörébe tartozik az új pályázati lehetőségek felkutatása,
+az erről történő tájékoztatás adott vállalatok és partnerek felé,illetve igény esetén a pályázatok megírása magyar vagy idegen nyelven. 
+
+A pályázatíró feladata a pályázati úton történő forrásszerzés az adott vállalat vagy szervezet fejlesztési céljainak megvalósítása érdekében.
+
+Munkájára elsősorban a pályázatok sokszor bonyolult megszövegezése, a vonatkozó jogszabályok és eljárások ismeretének igénye miatt van szükség.
+
+#### 3.2 Törvények
+
+A törvény mint jogi fogalom a jogszabályok hierarchiájában az alkotmány után a legfőbb jogszabályt jelenti, amelyet csak az adott állam törvényhozása alkothat meg, módosíthat vagy helyezhet hatályon kívül.
+
+A köznyelv törvény alatt esetenként a jog egészét, bármelyik jogszabályt illetve a bíróságot is érti.
+
+#### 3.3 Szabványok
+
+A szabvány elismert szervezet által alkotott vagy jóváhagyott, közmegegyezéssel elfogadott olyan műszaki dokumentum, amely tevékenységre vagy azok eredményére vonatkozik, és olyan általános és ismételten alkalmazható szabályokat, útmutatókat vagy jellemzőket tartalmaz, amelyek alkalmazásával a rendező hatás az adott feltételek között a legkedvezőbb.
+
 ## 5. Jelenlegi üzleti folyamatok modellje
 ## 6. Igényelt üzleti folyamatok modellje
 ## 7. Követelménylista
