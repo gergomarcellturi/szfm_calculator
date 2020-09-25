@@ -116,6 +116,15 @@ A szabvány elismert szervezet által alkotott vagy jóváhagyott, közmegegyez�
 ## 10. Képernyő tervek
 ## 11. Forgatókönyvek
 ## 12. Funkció – követelmény megfeleltetés
+ Az oldal dizájnját  CSS-el csináljuk, könnyen értelmezhető HTML-el kódoljuk.
+ 
+A reszponzív design CSS segítségével történik, hogy átméretezhető legyen az ablak, és számos felbontással kompatibilis legyen.
+
+Az operátor müvleteket, angular frontend  segítségével valósítjuk meg.
+
+Matematikai műveletek operációgombokként jelennek meg.
+
+A program kompatibilis lesz különböző eszközökkel, bármelyik böngésző segítségével.
 
 ## 13. Fogalomszótár
 
