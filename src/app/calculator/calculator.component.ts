@@ -20,14 +20,41 @@ import { trigger, state, style, transition, animate } from '@angular/animations'
 })
 export class CalculatorComponent implements OnInit {
 
-  menuState = 'out';
+  public menuState = 'out';
+  public inputString = '';
 
-  constructor() { }
+  constructor(private elementRef: ElementRef) {  }
 
   ngOnInit(): void {
+    this.elementRef.nativeElement.ownerDocument.body.style.backgroundColor = '#112';
+    this.cursorEffect();
   }
 
-  toggleMenu(){
+  private cursorEffect() {
+    const border = this.elementRef.nativeElement.ownerDocument.querySelector('.highlight');
+    this.elementRef.nativeElement.ownerDocument.querySelector('.calculator-container')
+      .addEventListener('mousemove', (ev: any) => {
+        const x = ev.pageX;
+        const y = ev.pageY;
+        const bounding = border.getBoundingClientRect();
+
+        border.style.webkitMaskPosition = `${x - bounding.x - 160}px ${y - bounding.y - 160}px`;
+      });
+  }
+
+  public toggleMenu(){
     this.menuState = this.menuState === 'out' ? 'in' : 'out';
+  }
+
+  public input(char: string) {
+    this.inputString += char;
+  }
+
+  public evaluateExpression() {
+    console.log(this.inputString);
+  }
+
+  public clearInput() {
+    this.inputString = '';
   }
 }
