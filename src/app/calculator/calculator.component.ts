@@ -47,7 +47,7 @@ export class CalculatorComponent implements OnInit {
   }
 
   public input(char: string) {
-    this.inputString += char;
+    this.inputString += this.isOperator(char) && this.isOperator(this.inputString[this.inputString.length - 1]) ? '' : char;
   }
 
   public evaluateExpression() {
@@ -56,5 +56,9 @@ export class CalculatorComponent implements OnInit {
 
   public clearInput() {
     this.inputString = '';
+  }
+
+  private isOperator(char: string): boolean {
+    return char === '/' || char === '*' || char === '+' || char === '-' || char === undefined;
   }
 }
