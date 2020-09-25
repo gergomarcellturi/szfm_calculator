@@ -61,4 +61,15 @@ export class CalculatorComponent implements OnInit {
   private isOperator(char: string): boolean {
     return char === '/' || char === '*' || char === '+' || char === '-' || char === undefined;
   }
+
+  private corrigateInput() {
+    this.inputString = this.inputString.replace(/\s/g, '');
+    this.inputString = this.inputString.replace(this.getSearchExpression(), (operator) => {
+      return ` ${operator} `;
+    });
+  }
+
+  private getSearchExpression(): RegExp {
+    return /[+/*-]/gi;
+  }
 }
