@@ -66,6 +66,14 @@ export class CalculatorComponent implements OnInit {
     this.addToCalcHistory(this.inputString);
   }
 
+  public deleteChar(): void {
+    this.inputString = this.inputString.slice(0, -1);
+    if ((this.isOperator(this.inputString[this.inputString.length - 1]) ||
+      this.inputString[this.inputString.length - 1] === ' ') && this.inputString.length !== 0) {
+      this.deleteChar();
+    }
+  }
+
   public clearInput() {
     this.inputString = '';
   }
