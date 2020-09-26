@@ -81,3 +81,7 @@ input{
 .grid-item:hover {
   background-color: #58586a;
 }
+
+.grid-item:active {
+  background-color: #eee;
+}
