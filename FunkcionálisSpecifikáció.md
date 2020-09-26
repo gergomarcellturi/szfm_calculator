@@ -114,6 +114,14 @@ A szabvány elismert szervezet által alkotott vagy jóváhagyott, közmegegyez�
 
 ## 9. Képernyő tervek
 
+![A diagram.](./images/kép1.png)
+
+![A diagram.](./images/kép2.png)
+
+![A diagram.](./images/kép3.png)
+
+![A diagram.](./images/kép4.png)
+
 ## 10. Forgatókönyvek
 
 1.A kolléga ki akarja számolni, hogy évente menyi pénzt keres.

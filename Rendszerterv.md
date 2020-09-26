@@ -45,7 +45,13 @@ Turi Marcell Gergő (fejlesztő)
 
 ## Wireframe
 
+![A diagram.](./images/kép1.png)
 
+![A diagram.](./images/kép2.png)
+
+![A diagram.](./images/kép3.png)
+
+![A diagram.](./images/kép4.png)
 
 ## Rendszer célja
 
