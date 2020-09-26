@@ -96,12 +96,24 @@ Opera
 
 MS Edge
 
+## Tesztterv
+
+Külső megjelenés tesztelése.
+
+Alpmüveletek elvégzése teszként és kivételes esetek kezelése.
+
+Megfelelő funkció esetén  szám gomb lenyomásával vátozik a gomb árnyalata, ezzel látjuk, hogy az egy gomb.
+
+Minden bemenet kifejezésre megfelelő válasszal tér vissza.
+
+Minden funkció az érvényes matematikai szabályok szerint számol.
 
 ## Telepítési terv
 
 A program nem kíván telepítést, mivel egy weboldal ezt pedig a programozó cég rendszergazdája üzemeli egy szerven.
 
 ## Karbantartási terv
+
 Tudjuk, hogy az informatika egy folyamatosan újulásban lévő iparág, fontosnak tartjuk, hogy naprakészek maradjunk a technológiákkal kapcsolatban.
  
 A weblapunkat átadás után is karbantartsuk, illetve korszerűsítsük is időközönként.
