@@ -79,6 +79,7 @@ p {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(4, 1fr);
+  user-select: none;
 }
 
 .grid-item{
@@ -122,4 +123,8 @@ p {
 
 .grid-item:hover {
   background-color: #58586a;
+}
+
+.grid-item:active {
+  background-color: #eee;
 }
