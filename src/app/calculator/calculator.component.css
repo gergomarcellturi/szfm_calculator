@@ -31,7 +31,7 @@ p {
 
 .logo-1 {
   color: white;
-  animation: neon 3s infinite;
+  animation: neon .2s infinite;
 }
 
 @keyframes neon {
