@@ -112,7 +112,7 @@ export class CalculatorComponent implements OnInit {
     this.evaluateExpression();
   }
 
-  private changeLanguage(lang: string): void {
+  public changeLanguage(lang: string): void {
     this.translateService.use(lang);
   }
 }
