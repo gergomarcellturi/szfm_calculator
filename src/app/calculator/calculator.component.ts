@@ -37,6 +37,7 @@ export class CalculatorComponent implements OnInit {
     ) {  }
 
   ngOnInit(): void {
+    this.eventService.sidebarclick.subscribe(this.historyEventHandler.bind(this));
     this.elementRef.nativeElement.ownerDocument.body.style.backgroundColor = '#112';
     this.cursorEffect();
     this.getHistoryFromCache();
