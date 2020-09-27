@@ -1,6 +1,17 @@
 /* You can add global styles to this file, and also import other style files */
 @import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;400;500&display=swap');
 
+@font-face {
+  font-family: lato;
+  src: url('assets/fonts/Hello Olivia.otf') format("opentype");
+}
+
+:root {
+  --shadow-color: #cd7bff;
+  --shadow-color-light: white;
+}
+
+
 .card-list {
   display: flex;
   flex-direction: column;

@@ -2,6 +2,12 @@
   <mat-icon>menu</mat-icon>
 </button>
 
+<link href="https://fonts.googleapis.com/css?family=Archivo+Black&display=swap" rel="stylesheet">
+
+<p class="title logo-1">
+  {{'COSMIC_CALCULATOR' | translate}}
+</p>
+
 <div class="calculator-container">
   <div class="input-container">
     <input [value]="inputString" [readOnly]="true" (click)="deleteChar()">
