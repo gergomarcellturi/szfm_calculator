@@ -3,6 +3,7 @@ import { trigger, state, style, transition, animate } from '@angular/animations'
 import {CacheService} from '../services/cache.service';
 import {EventService} from '../services/event.service';
 import * as math from 'mathjs';
+import {TranslateService} from '@ngx-translate/core';
 
 @Component({
   selector: 'app-calculator',
@@ -29,6 +30,7 @@ export class CalculatorComponent implements OnInit {
   public calcHistory: {expression: string, value: number}[] = [];
 
   constructor(
+    public translateService: TranslateService,
     private elementRef: ElementRef,
     private cacheService: CacheService,
     private eventService: EventService,
@@ -107,5 +109,9 @@ export class CalculatorComponent implements OnInit {
   private historyEventHandler(history: {expression: string, value: number}): void {
     this.inputString = history.expression;
     this.evaluateExpression();
+  }
+
+  private changeLanguage(lang: string): void {
+    this.translateService.use(lang);
   }
 }

@@ -12,7 +12,7 @@ import {RouterModule} from '@angular/router';
 import { SidebarComponent } from './calculator/sidebar/sidebar.component';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import {MatIconModule} from '@angular/material/icon';
-
+import {MatMenuModule} from '@angular/material/menu';
 
 export function HttpLoaderFactory(httpClient: HttpClient) {
   return new TranslateHttpLoader(httpClient, 'assets/translations/', '.json');
@@ -40,6 +40,7 @@ export function HttpLoaderFactory(httpClient: HttpClient) {
     AppRoutingModule,
     RouterModule,
     BrowserModule,
+    MatMenuModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

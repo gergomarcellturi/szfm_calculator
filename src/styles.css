@@ -67,3 +67,6 @@
 .card-container:not(:first-child) {
   margin-top: -280px;
 }
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
