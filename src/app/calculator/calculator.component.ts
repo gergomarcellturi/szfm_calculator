@@ -63,11 +63,13 @@ export class CalculatorComponent implements OnInit {
     this.inputString += this.isOperator(char) && this.isOperator(this.inputString[this.inputString.length - 1]) ? '' : char;
   }
 
-  public evaluateExpression() {
+  public evaluateExpression(fromHistory?: boolean) {
     this.corrigateInput();
     this.resultString = `= ${math.parse(this.inputString).evaluate()}`;
     this.cacheService.addCalcHistory(this.inputString);
-    this.addToCalcHistory(this.inputString);
+    if (!fromHistory) {
+      this.addToCalcHistory(this.inputString);
+    }
   }
 
   public deleteChar(): void {
@@ -109,7 +111,7 @@ export class CalculatorComponent implements OnInit {
 
   private historyEventHandler(history: {expression: string, value: number}): void {
     this.inputString = history.expression;
-    this.evaluateExpression();
+    this.evaluateExpression(true);
   }
 
   public changeLanguage(lang: string): void {
