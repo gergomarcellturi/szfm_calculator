@@ -22,3 +22,23 @@
 | T18 | Az input mezőre kattintva a program törli az utolsó bevitt adatot a mezőből. | Sikeres | Turi Gergő Marcell |
 | T19 | A program helyes sorrendben jeleníti meg a historyt a felhasználónak. | Sikeres | Turi Gergő Marcell |
 | T20 | Cache lekérdezéskor a program nem ütközik problémába, ha a cache null, vagy üres tömb. | Sikeres | Turi Gergő Marcell |
+| T21 | A címszöveg helyes méretben kerül megjelenítésre. | Sikeres | Tóth Donát |
+| T22 | A címszöveg helyes színvilággal kerül megjelenítésre. | Sikeres | Tóth Donát |
+| T23 | A címszöveg helyes betűstílussal kerül megjelenítésre. | Sikeres | Tóth Donát |
+| T24 | A címszövegen jelen van a fény-pulzáló animáció. | Sikeres | Tóth Donát |
+| T25 | A címszöveg körül jelen van a 'füst' animíáció. | Sikeres | Tóth Donát |
+| T26 | Nyelvválasztáskor a kiválasztott nyelven jelenik meg a címszöveg. | Sikeres | Tóth Donát |
+| T27 | Cache kiválasztáskor a helyes kifejezést tölti be a számológép layoutba. | Sikeres | Tóth Donát |
+| T28 | Cache kiválasztásakor a helyes eredményt tölti be a számológép layoutba. | Sikeres | Tóth Donát |
+| T29 | Cache kiválasztásakor nem duplikálódik a kiértékelt érték a historyban újra (nem kerül bele újra). | Sikeres | Tóth Donát |
+| T30 | Sidebar gombra való kattintáskor helyes sebességgel csúszik be a felület. | Sikeres | Tóth Donát |
+| T31 | Sidebarból való kikattintáskor nem csúszik vissza a felület. | Sikeres | Tóth Donát |
+| T32 | A sidebar gombra való újra kattintáskor csúszik vissza a felület. | Sikeres | Tóth Donát |
+| T33 | Az animációk nem lassítják be a program működését. | Sikeres | Tóth Donát |
+| T34 | Sok számolási előzménykor megjelenik a scrollball a jobb oldalon. | Sikeres | Tóth Donát |
+| T35 | Az input mező halványabb színnel van megjelenítve. | Sikeres | Tóth Donát |
+| T36 | Az eredménymező élénkebb színnel van megjelenítve. | Sikeres | Tóth Donát |
+| T37 | Nyelvválasztáskor helyes fájlt tölt be a HttpClient | Sikeres | Tóth Donát |
+| T38 | Inicializáláskor magyar nyelven jeleníti meg a programot. | Sikeres | Tóth Donát |
+| T39 | Nyelvváltás esetén nem vész el az előzmény. | Sikeres | Tóth Donát |
+| T40 | Kiértékeléskor elmenti az adatokat a cachebe (cookie) | Sikeres | Tóth Donát |
