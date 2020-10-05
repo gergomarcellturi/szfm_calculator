@@ -42,3 +42,23 @@
 | T38 | Inicializáláskor magyar nyelven jeleníti meg a programot. | Sikeres | Tóth Donát |
 | T39 | Nyelvváltás esetén nem vész el az előzmény. | Sikeres | Tóth Donát |
 | T40 | Kiértékeléskor elmenti az adatokat a cachebe (cookie) | Sikeres | Tóth Donát |
+| T41 | A számológép layout a háttér előtt van. | Sikeres | Pataki Donát |
+| T42 | A számológép layouton megjelenik az összes gomb. | Sikeres | Pataki Donát |
+| T43 | A számológép layouton az összes gomb helyes sorrendben jelenik meg. | Sikeres | Pataki Donát |
+| T44 | A számológép layoutra egér hover-re helyes megvilágítási effektus kerül. | Sikeres | Pataki Donát |
+| T45 | A sidebar helyes módon csúszik be olalról. | Sikeres | Pataki Donát |
+| T46 | A sidebar az adott gomb click eventjére becsúszik oldalról. | Sikeres | Pataki Donát |
+| T47 | A sidebar háttérszíne megegyezik az eltervezettel. | Sikeres | Pataki Donát |
+| T48 | A sidebar card elemei helyes animációval emelkednek ki egér hover-kor. | Sikeres | Pataki Donát |
+| T49 | A számológép layout középen van. | Sikeres | Pataki Donát |
+| T50 | A számológép input mezője középen van. | Sikeres | Pataki Donát |
+| T51 | A számológép input mezőjére különböző színű betűk kerülnek be. | Sikeres | Pataki Donát |
+| T52 | A számológép layouton egérkattintáskor a gombokon animált effektus van. | Sikeres | Pataki Donát |
+| T53 | A utility gombok megnyomásakor előre eltervezett helyen jelenik meg az almenü | Sikeres | Pataki Donát |
+| T54 | A számológép layout helyes színnel kerül megjelenítésre. | Sikeres | Pataki Donát |
+| T55 | A számológép layout helyes méretekkel kerül megjelenítésre | Sikeres | Pataki Donát |
+| T56 | A sidebar layout helyes színekkel kerül megjelenítésre. | Sikeres | Pataki Donát |
+| T57 | A sidebar layout helyes méretekkel kerül megjelenítésre. | Sikeres | Pataki Donát |
+| T58 | A sidebar card layout helyes színekkel kerül megjleneítésre | Sikeres | Pataki Donát |
+| T59 | A sidebar card layout helyes méretekkel kerül megjelenítésre. | Sikeres | Pataki Donát |
+| T60 | A sidebar card layout helyes elrendezéssel kerül megjelenítésre. | Sikeres | Pataki Donát |
